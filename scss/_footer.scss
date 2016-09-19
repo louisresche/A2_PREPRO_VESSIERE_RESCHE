@@ -1,0 +1,27 @@
+/*********************
+VARIABLES
+**********************/
+$footer-background: #3c3c3c;        /*Control Menu Color Scheme*/
+$footer-height: 90px;
+$footer-width: 100vw;
+
+/*********************
+RESPONSIVE BREAKPOINTS
+**********************/
+@mixin breakpoint($point) {
+  @if $point == 1300 {
+    @media (max-width: 1300px) { @content; }
+  }
+  @else if $point == 715 {
+    @media (max-width: 715px) { @content; }
+  }
+}
+/*********************
+NAVIGATION STYLES
+**********************/
+
+.footer {
+  background-color: $footer-background;
+  height: $footer-height;
+  width: $footer-width;
+}
