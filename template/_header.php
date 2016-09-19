@@ -6,5 +6,37 @@
 
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav.min.js" ></script>
 </head>
 <body>
+
+<header>
+    <a class="mobile" href="#">&#9776;</a>
+    <nav>
+        <ul>
+
+            <li><a href="#">Link 1</a></li>
+            <li>
+                <a href="#">Link 2</a>
+                <ul>
+                    <li><a href="#">Sublink 1</a></li>
+                    <li><a href="#">Sublink 2</a></li>
+                    <li><a href="#">Sublink 3</a></li>
+                    <li><a href="#">Sublink 4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a>
+                <ul>
+                    <li><a href="#">Sublink 1</a></li>
+                    <li><a href="#">Sublink 2</a></li>
+                    <li><a href="#">Sublink 3</a></li>
+                    <li><a href="#">Sublink 4</a></li>
+                </ul></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+        </ul>
+        <div style="clear:both;"></div>
+    </nav>
+</header>
