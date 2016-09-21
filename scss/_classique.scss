@@ -11,6 +11,10 @@ $classique-height-img: 100%;
 $classique-width-img: 100%;
 
 $classique-text: white;
+$classique-height-text: 20px;
+$classique-width-text: 450px;
+$classique-padding-top-text: 80px;
+$classique-padding-left-text: 50px;
 
 
 /*********************
@@ -42,5 +46,9 @@ NAVIGATION STYLES
 
 .classique-text{
   color: $classique-text;
-  padding-top: $padding-top;
+  height: $classique-height-text;
+  width: $classique-width-text;
+  padding-left: $classique-padding-left-text;
+  padding-top: $classique-padding-top-text;
+  font-family: 'Poiret One', cursive;
 }
