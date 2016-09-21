@@ -19,7 +19,7 @@
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="classique.php">Classique</a></li>
-            <li><a href="#">Rap</a></li>
+            <li><a href="rap.php">Rap</a></li>
             <li>
                 <a href="#">Electro</a>
                 <ul>
