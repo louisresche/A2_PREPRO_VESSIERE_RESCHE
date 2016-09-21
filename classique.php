@@ -13,9 +13,15 @@
                 </div>
 
 
+
             <div class="mozart">
                 <img src="images/mozart.jpeg" alt="Mozart"> </img>
             </div>
+
+             <div class="beethoven">
+                  <img src="images/beethoven.jpeg" alt="Beethoven"> </img>
+             </div>
+
 
 
     </div>

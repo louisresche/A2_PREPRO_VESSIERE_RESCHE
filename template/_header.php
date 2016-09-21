@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>A2-PREPRO</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/nav.min.js" ></script>
+
 
 </head>
 <body>
