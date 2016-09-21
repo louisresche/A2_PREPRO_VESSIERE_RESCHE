@@ -14,19 +14,8 @@
 
     <a class="mobile" href="#">&#9776;</a>
     <nav>
-        <div id="bars">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
         <ul>
+            <li><a href="index.php">Acceuil</a></li>
             <li><a href="#">Classique</a></li>
             <li><a href="#">Rap</a></li>
             <li>
