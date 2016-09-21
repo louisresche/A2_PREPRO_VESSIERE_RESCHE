@@ -1,3 +1,5 @@
+@import "compass/css3";
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Raleway:200,300,400';
 /*********************
 VARIABLES
 **********************/
@@ -17,7 +19,7 @@ $classique-padding-top-text: 80px;
 $classique-padding-left-text: 50px;
 
 
-$mozart-padding-top: 55vh;
+$mozart-padding-top: 20px;
 $mozart-border-radius: 100%;
 
 
@@ -51,6 +53,7 @@ NAVIGATION STYLES
       margin-left: 5vw;
       padding-top: 45vh;
       text-shadow: 9px 6px 35px #000000;
+      font-family: 'Poiret One', cursive;
     @include breakpoint(715) {
       padding-top: 10vh;
     }
@@ -60,6 +63,7 @@ NAVIGATION STYLES
         height: $classique-height;
         width: 40vw;
         margin-left: 60vw;
+        display: block;
         @include breakpoint(715) {
           width: 100vw;
           margin-left: 0vw;
@@ -71,13 +75,17 @@ NAVIGATION STYLES
           width: $classique-width-text;
           padding-left: $classique-padding-left-text;
           padding-top: $classique-padding-top-text;
-          font-family: 'Poiret One', cursive;
+
+          p{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 200;
+          }
           text-align: justify;
           @include breakpoint(715) {
             padding-top: 25vh;
-            padding-left: 2vw;
+            padding-left: 4vw;
+            padding-right: 6vw;
             width: 100vw;
-            padding-right: 4vw;
           }
         }
         .miniatures{
@@ -88,9 +96,7 @@ NAVIGATION STYLES
           justify-content: center;
           align-items: flex-start;
           align-content: stretch;
-          @include breakpoint(715) {
-            padding-top: 30vh;
-          }
+
 
 
           img{

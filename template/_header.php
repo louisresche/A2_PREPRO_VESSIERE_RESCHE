@@ -17,7 +17,7 @@
     <a class="mobile" href="#">&#9776;</a>
     <nav>
         <ul>
-            <li><a href="index.php">Acceuil</a></li>
+            <li><a href="index.php">Accueil</a></li>
             <li><a href="classique.php">Classique</a></li>
             <li><a href="#">Rap</a></li>
             <li>
