@@ -10,6 +10,8 @@ $padding-top: 60px;
 $classique-height-img: 100%;
 $classique-width-img: 100%;
 
+$classique-text: white;
+
 
 /*********************
 RESPONSIVE BREAKPOINTS
@@ -36,4 +38,9 @@ NAVIGATION STYLES
   background-image: url(../images/classique.jpg);
   height: $classique-height-img;
   width: $classique-width-img;
+}
+
+.classique-text{
+  color: $classique-text;
+  padding-top: $padding-top;
 }
