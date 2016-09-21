@@ -16,7 +16,7 @@
     <nav>
         <ul>
             <li><a href="index.php">Acceuil</a></li>
-            <li><a href="#">Classique</a></li>
+            <li><a href="classique.php">Classique</a></li>
             <li><a href="#">Rap</a></li>
             <li>
                 <a href="#">Electro</a>
