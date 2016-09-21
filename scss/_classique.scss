@@ -17,6 +17,10 @@ $classique-padding-top-text: 80px;
 $classique-padding-left-text: 50px;
 
 
+$mozart-padding-top: 270px;
+$mozart-border-radius: 100%;
+
+
 /*********************
 RESPONSIVE BREAKPOINTS
 **********************/
@@ -51,4 +55,16 @@ NAVIGATION STYLES
   padding-left: $classique-padding-left-text;
   padding-top: $classique-padding-top-text;
   font-family: 'Poiret One', cursive;
+}
+
+.mozart{
+  padding-top: $mozart-padding-top;
+  padding-left: 30px;
+
+}
+
+img{
+  border-radius: 70px 15px 70px 15px;
+  height: 150px;
+  width: 150px;
 }
