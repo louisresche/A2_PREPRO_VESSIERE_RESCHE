@@ -1,11 +1,8 @@
 <?php include "template/_header.php"; ?>
 
-
-<div class="container">
-
+<div class="classique-block">
+    
 </div>
-
-
 
 
 
