@@ -44,7 +44,6 @@ NAVIGATION STYLES
   width: 60vw;
   height: $rap-height;
   margin-left: 40vw;
-  float: left;
     @include breakpoint(715) {
       width: 0vw;
       margin-left: 0;
@@ -59,6 +58,7 @@ NAVIGATION STYLES
         font-family: 'Poiret One', cursive;
           @include breakpoint(715) {
             padding-top: 10vh;
+            position: absolute;
           }
       }
 }
@@ -68,7 +68,7 @@ NAVIGATION STYLES
     height: $rap-height;
     width: 40vw;
     display: block;
-    position: absolute;
+    float: left;
       @include breakpoint(715) {
         width: 100vw;
         margin-left: 0vw;

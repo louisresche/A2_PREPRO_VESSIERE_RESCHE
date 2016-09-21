@@ -183,6 +183,7 @@ MOBILE NAV STYLES
   
   @include breakpoint(715) {
     display:table;
+    z-index: 999;
   }
 }
 

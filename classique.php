@@ -6,7 +6,7 @@
 <div class="classique-img">
     
     <h1 class="titre">MUSIQUE <br>CLASSIQUE</h1>
-
+</div>
     <div class="classique-block">
 
         <div class="classique-text">
@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
 
 

@@ -9,8 +9,8 @@ $classique-width: 40vw;
 $padding-top: 60px;
 
 
-$classique-height-img: 100%;
-$classique-width-img: 100%;
+$classique-height-img: 100vh;
+$classique-width-img: 100vw;
 
 $classique-text: white;
 $classique-height-text: 20px;
@@ -38,26 +38,28 @@ RESPONSIVE BREAKPOINTS
 NAVIGATION STYLES
 **********************/
 
-.classique-img{
+.classique-img {
   background-image: url(../images/classique.jpg);
   height: $classique-height-img;
   width: 60vw;
+  float: left;
 
   @include breakpoint(715) {
-    width: 100vw;
+    width: 0vw;
   }
 
-  .titre{
-      color: $classique-text;
-      float: left;
-      margin-left: 5vw;
-      padding-top: 45vh;
-      text-shadow: 9px 6px 35px #000000;
-      font-family: 'Poiret One', cursive;
+  .titre {
+    color: $classique-text;
+    float: left;
+    margin-left: 5vw;
+    padding-top: 45vh;
+    text-shadow: 9px 6px 35px #000000;
+    font-family: 'Poiret One', cursive;
     @include breakpoint(715) {
       padding-top: 10vh;
     }
   }
+}
       .classique-block {
         background-color: $classique-background;
         height: $classique-height;
@@ -113,7 +115,7 @@ NAVIGATION STYLES
 
 
       }
-}
+
 
 
 
