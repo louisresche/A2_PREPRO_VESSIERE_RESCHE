@@ -72,11 +72,11 @@ NAVIGATION STYLES
           padding-left: $classique-padding-left-text;
           padding-top: $classique-padding-top-text;
           font-family: 'Poiret One', cursive;
+          text-align: justify;
           @include breakpoint(715) {
             padding-top: 25vh;
             padding-left: 2vw;
             width: 100vw;
-            text-align: justify;
             padding-right: 4vw;
           }
         }
