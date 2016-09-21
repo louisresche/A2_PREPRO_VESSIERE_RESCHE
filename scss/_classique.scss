@@ -12,12 +12,12 @@ $classique-width-img: 100%;
 
 $classique-text: white;
 $classique-height-text: 20px;
-$classique-width-text: 450px;
+$classique-width-text: 90%;
 $classique-padding-top-text: 80px;
 $classique-padding-left-text: 50px;
 
 
-$mozart-padding-top: 270px;
+$mozart-padding-top: 55vh;
 $mozart-border-radius: 100%;
 
 
@@ -36,40 +36,80 @@ RESPONSIVE BREAKPOINTS
 NAVIGATION STYLES
 **********************/
 
-.classique-block {
-  background-color: $classique-background;
-  height: $classique-height;
-  width: $classique-width;
-  margin-left: 60vw;
-}
 .classique-img{
   background-image: url(../images/classique.jpg);
   height: $classique-height-img;
-  width: $classique-width-img;
+  width: 60vw;
+
+  @include breakpoint(715) {
+    width: 100vw;
+  }
+
+  .titre{
+      color: $classique-text;
+      float: left;
+      margin-left: 5vw;
+      padding-top: 45vh;
+      text-shadow: 9px 6px 35px #000000;
+    @include breakpoint(715) {
+      padding-top: 10vh;
+    }
+  }
+      .classique-block {
+        background-color: $classique-background;
+        height: $classique-height;
+        width: 40vw;
+        margin-left: 60vw;
+        @include breakpoint(715) {
+          width: 100vw;
+          margin-left: 0vw;
+        }
+
+        .classique-text{
+          color: $classique-text;
+          height: $classique-height-text;
+          width: $classique-width-text;
+          padding-left: $classique-padding-left-text;
+          padding-top: $classique-padding-top-text;
+          font-family: 'Poiret One', cursive;
+          @include breakpoint(715) {
+            padding-top: 25vh;
+            padding-left: 2vw;
+            width: 100vw;
+            text-align: justify;
+            padding-right: 4vw;
+          }
+        }
+        .miniatures{
+          padding-top: $mozart-padding-top;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: flex-start;
+          align-content: stretch;
+          @include breakpoint(715) {
+            padding-top: 30vh;
+          }
+
+
+          img{
+            border-radius: 50px 15px 50px 15px;
+            width: 40%;
+            margin-right: 10px;
+            @include breakpoint(715) {
+            width: 30vw;
+          }
+
+          }
+
+        }
+
+
+      }
 }
 
-.classique-text{
-  color: $classique-text;
-  height: $classique-height-text;
-  width: $classique-width-text;
-  padding-left: $classique-padding-left-text;
-  padding-top: $classique-padding-top-text;
-  font-family: 'Poiret One', cursive;
-}
 
-.mozart{
-  padding-top: $mozart-padding-top;
-  padding-left: 30px;
 
-}
 
-.beethoven{
-  padding-left: 300px;
-  padding-top: 50px;
-}
 
-img{
-  border-radius: 70px 15px 70px 15px;
-  height: 150px;
-  width: 150px;
-}

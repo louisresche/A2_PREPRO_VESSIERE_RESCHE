@@ -4,6 +4,8 @@
 
 
 <div class="classique-img">
+    
+    <h1 class="titre">MUSIQUE CLASSIQUE</h1>
 
     <div class="classique-block">
 
@@ -14,15 +16,12 @@
 
 
 
-            <div class="mozart">
+            <div class="miniatures">
                 <img src="images/mozart.jpeg" alt="Mozart"> </img>
+                <img src="images/beethoven.jpeg" alt="Beethoven"> </img>
             </div>
 
-             <div class="beethoven">
-                  <img src="images/beethoven.jpeg" alt="Beethoven"> </img>
-             </div>
-
-
+           
 
     </div>
 </div>
