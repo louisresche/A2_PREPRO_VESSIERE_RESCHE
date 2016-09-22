@@ -1,0 +1,123 @@
+@import "compass/css3";
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Raleway:200,300,400';
+/*********************
+VARIABLES
+**********************/
+$classique-background: #000000;        /*Control Menu Color Scheme*/
+$classique-height: 100vh;
+$classique-width: 40vw;
+$padding-top: 60px;
+
+
+$classique-height-img: 100vh;
+$classique-width-img: 100vw;
+
+$classique-text: white;
+$classique-height-text: 20px;
+$classique-width-text: 90%;
+$classique-padding-top-text: 80px;
+$classique-padding-left-text: 50px;
+
+
+$mozart-padding-top: 20px;
+$mozart-border-radius: 100%;
+
+
+/*********************
+RESPONSIVE BREAKPOINTS
+**********************/
+@mixin breakpoint($point) {
+  @if $point == 1300 {
+    @media (max-width: 1300px) { @content; }
+  }
+  @else if $point == 715 {
+    @media (max-width: 715px) { @content; }
+  }
+}
+/*********************
+NAVIGATION STYLES
+**********************/
+
+.classique-img {
+  background-image: url(../images/electro.jpg);
+  height: $classique-height-img;
+  width: 60vw;
+  float: left;
+
+  @include breakpoint(715) {
+    width: 0vw;
+  }
+
+  .titre {
+    color: $classique-text;
+    float: left;
+    margin-left: 5vw;
+    padding-top: 45vh;
+    text-shadow: 9px 6px 35px #000000;
+    font-family: 'Poiret One', cursive;
+    @include breakpoint(715) {
+      padding-top: 10vh;
+    }
+  }
+}
+.classique-block {
+  background-color: $classique-background;
+  height: $classique-height;
+  width: 40vw;
+  margin-left: 60vw;
+  display: block;
+  @include breakpoint(715) {
+    width: 100vw;
+    margin-left: 0vw;
+  }
+
+  .classique-text{
+    color: $classique-text;
+    height: $classique-height-text;
+    width: $classique-width-text;
+    padding-left: $classique-padding-left-text;
+    padding-top: $classique-padding-top-text;
+
+    p{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+    }
+    text-align: justify;
+    @include breakpoint(715) {
+      padding-top: 25vh;
+      padding-left: 4vw;
+      padding-right: 6vw;
+      width: 100vw;
+    }
+  }
+  .miniatures{
+    padding-top: $mozart-padding-top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+
+
+
+    img{
+      border-radius: 50px 15px 50px 15px;
+      width: 40%;
+      margin-right: 10px;
+      @include breakpoint(715) {
+        width: 30vw;
+      }
+
+    }
+
+  }
+
+
+}
+
+
+
+
+
+
