@@ -10,8 +10,8 @@
                 Ayant été influencé par d'autres genres musicaux (reggae, blues, et jazz), le rap acquiert une popularité de plus en plus grande au fil des années 1980.
             </p>
             <div class="miniatures">
-                <img src="images/mozart.jpeg" alt="Mozart"> </img>
-                <img src="images/beethoven.jpeg" alt="Beethoven"> </img>
+                <img src="images/wiz.jpeg" alt="Mozart"> </img>
+                <img src="images/snoop.jpeg" alt="Beethoven"> </img>
             </div>
         </div>
     </div>
