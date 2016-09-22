@@ -21,7 +21,7 @@
             <li><a href="classique.php">Classique</a></li>
             <li><a href="rap.php">Rap</a></li>
             <li>
-                <a href="#">Electro</a>
+                <a href="electro.php">Electro</a>
                 <ul>
                     <li><a href="#">Sublink 1</a></li>
                     <li><a href="#">Sublink 2</a></li>
