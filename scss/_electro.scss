@@ -3,20 +3,20 @@
 /*********************
 VARIABLES
 **********************/
-$classique-background: #000000;        /*Control Menu Color Scheme*/
-$classique-height: 100vh;
-$classique-width: 40vw;
+$electro-background: #000000;        /*Control Menu Color Scheme*/
+$electro-height: 100vh;
+$electro-width: 40vw;
 $padding-top: 60px;
 
 
-$classique-height-img: 100vh;
-$classique-width-img: 100vw;
+$electro-height-img: 100vh;
+$electro-width-img: 100vw;
 
-$classique-text: white;
-$classique-height-text: 20px;
-$classique-width-text: 90%;
-$classique-padding-top-text: 80px;
-$classique-padding-left-text: 50px;
+$electro-text: white;
+$electro-height-text: 20px;
+$electro-width-text: 90%;
+$electro-padding-top-text: 80px;
+$electro-padding-left-text: 50px;
 
 
 $mozart-padding-top: 20px;
@@ -40,16 +40,17 @@ NAVIGATION STYLES
 
 .electro-img {
   background-image: url(../images/electro.jpg);
-  height: $classique-height-img;
+  height: $electro-height-img;
   width: 60vw;
   float: left;
+  background-size: cover;
 
   @include breakpoint(715) {
     width: 0vw;
   }
 
   .titre {
-    color: $classique-text;
+    color: $electro-text;
     float: left;
     margin-left: 5vw;
     padding-top: 45vh;
@@ -60,9 +61,9 @@ NAVIGATION STYLES
     }
   }
 }
-.classique-block {
-  background-color: $classique-background;
-  height: $classique-height;
+.electro-block {
+  background-color: $electro-background;
+  height: $electro-height;
   width: 40vw;
   margin-left: 60vw;
   display: block;
@@ -71,12 +72,12 @@ NAVIGATION STYLES
     margin-left: 0vw;
   }
 
-  .classique-text{
-    color: $classique-text;
-    height: $classique-height-text;
-    width: $classique-width-text;
-    padding-left: $classique-padding-left-text;
-    padding-top: $classique-padding-top-text;
+  .electro-text{
+    color: $electro-text;
+    height: $electro-height-text;
+    width: $electro-width-text;
+    padding-left: $electro-padding-left-text;
+    padding-top: $electro-padding-top-text;
 
     p{
       font-family: 'Raleway', sans-serif;
