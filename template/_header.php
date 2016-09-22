@@ -29,7 +29,7 @@
                     <li><a href="#">Sublink 4</a></li>
                 </ul>
             </li>
-            <li><a href="#">Techno</a>
+            <li><a href="techno.php">Techno</a>
                 <ul>
                     <li><a href="#">Sublink 1</a></li>
                     <li><a href="#">Sublink 2</a></li>
