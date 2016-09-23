@@ -17,9 +17,10 @@
                 <img src="images/mozart.jpeg" alt="Mozart"> </img>
                 <img src="images/beethoven.jpeg" alt="Beethoven"> </img>
             </div>
+            
         </div>
     </div>
 
 
-
+<?php include "template/_footer.php"; ?>
 

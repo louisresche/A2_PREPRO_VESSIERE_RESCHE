@@ -19,5 +19,6 @@
     <h1 class="titre">TRANCE</h1>
 </div>
 
+<?php include "template/_footer.php"; ?>
 
 

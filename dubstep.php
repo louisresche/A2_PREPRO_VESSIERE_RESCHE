@@ -20,3 +20,6 @@
 <div class="dubstep-img">
     <h1 class="titre">DUBSTEP</h1>
 </div>
+
+
+<?php include "template/_footer.php"; ?>

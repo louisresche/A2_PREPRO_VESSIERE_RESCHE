@@ -16,3 +16,4 @@
     <h1 class="titre">TECHNO</h1>
 </div>
 
+<?php include "template/_footer.php"; ?>

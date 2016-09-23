@@ -17,3 +17,6 @@
         </div>
     </div>
 </div>
+
+
+<?php include "template/_footer.php"; ?>

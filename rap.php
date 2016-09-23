@@ -21,3 +21,4 @@
 
 
 
+<?php include "template/_footer.php"; ?>
