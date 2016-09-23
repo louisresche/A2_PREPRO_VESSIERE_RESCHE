@@ -19,5 +19,5 @@
     <h1 class="titre">RAP</h1>
 </div>
 
-<?php include  "template/_footer.php"; ?>
+
 
