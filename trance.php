@@ -2,7 +2,7 @@
 
 
 
-<div class="trance-block">
+<div class="trance-block slideInLeft">
 
     <div class="trance-text">
         <p> La trance est un genre de musique électronique ayant émergé en Allemagne au début des années 19906.
@@ -15,7 +15,7 @@
         </div>
     </div>
 </div>
-<div class="trance-img">
+<div class="trance-img slideInRight">
     <h1 class="titre">TRANCE</h1>
 </div>
 

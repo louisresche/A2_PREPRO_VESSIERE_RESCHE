@@ -2,13 +2,13 @@
 
 
 
-<div class="minimal-img">
+<div class="minimal-img slideInLeft">
 
     <h1 class="titre">MINIMAL</h1>
 </div>
 
 
-<div class="minimal-block">
+<div class="minimal-block slideInRight">
 
     <div class="minimal-text">
         <p> La techno minimale est un sous-genre minimal de la techno, caractérisée par une structure musicale répétitive.
