@@ -25,16 +25,12 @@
                 <ul>
                     <li><a href="dubstep.php">Dubstep</a></li>
                     <li><a href="drum.php">Drum & Bass</a></li>
-                    <li><a href="#">Sublink 3</a></li>
-                    <li><a href="#">Sublink 4</a></li>
                 </ul>
             </li>
             <li><a href="techno.php">Techno</a>
                 <ul>
                     <li><a href="minimal.php">Minimal</a></li>
-                    <li><a href="#">Trance</a></li>
-                    <li><a href="#">Sublink 3</a></li>
-                    <li><a href="#">Sublink 4</a></li>
+                    <li><a href="trance.php">Trance</a></li>
                 </ul></li>
 
         </ul>
