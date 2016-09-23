@@ -102,15 +102,7 @@ NAVIGATION STYLES
           align-items: flex-start;
           align-content: stretch;
 
-            img{
-              border-radius: 50px 15px 50px 15px;
-              width: 40%;
-              margin-right: 10px;
-              @include breakpoint(715) {
-                width: 30vw;
-              }
-
-            }
+          @include border-miniature();
 
         }
 
