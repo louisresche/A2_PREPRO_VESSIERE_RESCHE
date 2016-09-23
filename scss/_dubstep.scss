@@ -1,0 +1,124 @@
+@import "compass/css3";
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Raleway:200,300,400';
+/*********************
+VARIABLES
+**********************/
+$dubstep-background: #000000;        /*Control Menu Color Scheme*/
+$dubstep-height: 100vh;
+$dubstep-width: 40vw;
+$padding-top: 60px;
+
+
+$dubstep-height-img: cover;
+$dubstep-width-img: 100%;
+
+$dubstep-text: white;
+$dubstep-height-text: 20px;
+$dubstep-width-text: 90%;
+$dubstep-padding-top-text: 80px;
+$dubstep-padding-left-text: 50px;
+
+
+$mozart-padding-top: 20px;
+$mozart-border-radius: 100%;
+
+
+/*********************
+RESPONSIVE BREAKPOINTS
+**********************/
+@mixin breakpoint($point) {
+  @if $point == 1300 {
+    @media (max-width: 1300px) { @content; }
+  }
+  @else if $point == 715 {
+    @media (max-width: 715px) { @content; }
+  }
+}
+/*********************
+NAVIGATION STYLES
+**********************/
+
+.dubstep-img {
+  background-image: url(../images/dubstep.jpg);
+  background-size: $dubstep-height-img;
+  width: 60vw;
+  height: $dubstep-height;
+  margin-left: 40vw;
+  @include breakpoint(715) {
+    width: 0vw;
+    margin-left: 0;
+  }
+
+  .titre{
+    color: $dubstep-text;
+    float: left;
+    margin-left: 5vw;
+    padding-top: 45vh;
+    text-shadow: 9px 6px 35px #000000;
+    font-family: 'Poiret One', cursive;
+    @include breakpoint(715) {
+      padding-top: 10vh;
+      position: absolute;
+    }
+  }
+}
+
+.dubstep-block {
+  background-color: $dubstep-background;
+  height: $dubstep-height;
+  width: 40vw;
+  display: block;
+  float: left;
+  @include breakpoint(715) {
+    width: 100vw;
+    margin-left: 0vw;
+  }
+
+  .dubstep-text{
+    color: $dubstep-text;
+    height: $dubstep-height-text;
+    width: $dubstep-width-text;
+    padding-left: $dubstep-padding-left-text;
+    padding-top: $dubstep-padding-top-text;
+    text-align: justify;
+
+    p{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+    }
+    @include breakpoint(715) {
+      padding-top: 25vh;
+      padding-left: 4vw;
+      padding-right: 6vw;
+      width: 100vw;
+    }
+  }
+  .miniatures{
+    padding-top: $mozart-padding-top;
+    display: flex;
+    flex-direction: row;
+    flex-wdubstep: nowdubstep;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+
+    img{
+      border-radius: 50px 15px 50px 15px;
+      width: 40%;
+      margin-right: 10px;
+      @include breakpoint(715) {
+        width: 30vw;
+      }
+
+    }
+
+  }
+
+
+}
+
+
+
+
+
+
