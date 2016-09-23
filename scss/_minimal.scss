@@ -39,10 +39,11 @@ NAVIGATION STYLES
 **********************/
 
 .minimal-img {
-  background-image: url(../images/minimal.jpg);
+  background-image: url(../images/dour.jpg);
   height: $minimal-height-img;
   width: 60vw;
   float: left;
+  background-size: cover;
 
   @include breakpoint(715) {
     width: 0vw;
