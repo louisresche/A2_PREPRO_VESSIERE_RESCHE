@@ -31,7 +31,7 @@
             </li>
             <li><a href="techno.php">Techno</a>
                 <ul>
-                    <li><a href="#">Sublink 1</a></li>
+                    <li><a href="minimal.php">Minimal</a></li>
                     <li><a href="#">Sublink 2</a></li>
                     <li><a href="#">Sublink 3</a></li>
                     <li><a href="#">Sublink 4</a></li>
