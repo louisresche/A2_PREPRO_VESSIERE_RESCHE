@@ -1,0 +1,104 @@
+@import "compass/css3";
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Raleway:200,300,400';
+/*********************
+VARIABLES
+**********************/
+$drum-background: #000000;        /*Control Menu Color Scheme*/
+$drum-height: 100vh;
+$drum-width: 40vw;
+$padding-top: 60px;
+
+
+$drum-height-img: 100vh;
+$drum-width-img: 100vw;
+
+$drum-text: white;
+$drum-height-text: 20px;
+$drum-width-text: 90%;
+$drum-padding-top-text: 80px;
+$drum-padding-left-text: 50px;
+
+
+$mozart-padding-top: 20px;
+$mozart-border-radius: 100%;
+
+
+/*********************
+NAVIGATION STYLES
+**********************/
+
+.drum-img {
+  background-image: url(../images/drum.jpg);
+  height: $drum-height-img;
+  width: 60vw;
+  float: left;
+
+  @include breakpoint(715) {
+    width: 0vw;
+  }
+
+  .titre {
+    color: $drum-text;
+    float: left;
+    margin-left: 5vw;
+    padding-top: 45vh;
+    text-shadow: 9px 6px 35px #000000;
+    font-family: 'Poiret One', cursive;
+    @include breakpoint(715) {
+      padding-top: 10vh;
+    }
+  }
+}
+.drum-block {
+  background-color: $drum-background;
+  height: $drum-height;
+  width: 40vw;
+  margin-left: 60vw;
+  display: block;
+  @include breakpoint(715) {
+    width: 100vw;
+    margin-left: 0vw;
+  }
+
+  .drum-text{
+    color: $drum-text;
+    height: $drum-height-text;
+    width: $drum-width-text;
+    padding-left: $drum-padding-left-text;
+    padding-top: $drum-padding-top-text;
+
+    p{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+    }
+    text-align: justify;
+    @include breakpoint(715) {
+      padding-top: 25vh;
+      padding-left: 4vw;
+      padding-right: 6vw;
+      width: 100vw;
+    }
+  }
+  .miniatures{
+    padding-top: $mozart-padding-top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+
+
+
+    @include border-miniature();
+
+  }
+
+
+}
+
+
+
+
+
+
