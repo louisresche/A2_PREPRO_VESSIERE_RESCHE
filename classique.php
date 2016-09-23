@@ -3,11 +3,11 @@
 
 
 
-<div class="classique-img">
+<div class="classique-img slideInLeft">
     
     <h1 class="titre">MUSIQUE <br>CLASSIQUE</h1>
 </div>
-    <div class="classique-block">
+    <div class="classique-block slideInRight">
 
         <div class="classique-text">
            <p> La musique classique désigne habituellement l'ensemble de la musique occidentale savante d'origine liturgique et séculière, par opposition à la musique populaire, depuis la musique médiévale à nos jours.

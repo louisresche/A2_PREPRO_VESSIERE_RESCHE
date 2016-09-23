@@ -2,7 +2,7 @@
 
 
 
-    <div class="rap-block">
+    <div class="rap-block slideInLeft">
 
         <div class="rap-text">
             <p> Le rap est une forme d'expression vocale appartenant au mouvement culturel et musical hip-hop, ayant émergé au milieu des années 1970 dans les ghettos aux États-Unis.
@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-<div class="rap-img">
+<div class="rap-img slideInRight">
     <h1 class="titre">RAP</h1>
 </div>
 

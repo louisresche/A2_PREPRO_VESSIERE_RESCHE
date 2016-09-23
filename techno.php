@@ -1,6 +1,6 @@
 <?php include "template/_header.php"; ?>
 
-<div class="techno-block">
+<div class="techno-block slideInLeft">
 
     <div class="techno-text">
         <p> La techno est un genre de musique électronique ayant émergé aux États-Unis au milieu des années 19802
@@ -12,7 +12,7 @@
         </div>
     </div>
 </div>
-<div class="techno-img">
+<div class="techno-img slideInRight">
     <h1 class="titre">TECHNO</h1>
 </div>
 
