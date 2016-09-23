@@ -32,7 +32,7 @@
             <li><a href="techno.php">Techno</a>
                 <ul>
                     <li><a href="minimal.php">Minimal</a></li>
-                    <li><a href="#">Sublink 2</a></li>
+                    <li><a href="#">Trance</a></li>
                     <li><a href="#">Sublink 3</a></li>
                     <li><a href="#">Sublink 4</a></li>
                 </ul></li>
