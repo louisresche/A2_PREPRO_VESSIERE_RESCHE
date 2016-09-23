@@ -1,14 +1,11 @@
 <?php include "template/_header.php"; ?>
 
 
-<div class="container">
+<video poster="" id="bgvid" playsinline autoplay muted loop>
+    <source src="images/vinyl.mp4" type="video/mp4">
+
+
     
-</div>
-
-
-
-
-
 
 
 
