@@ -1,12 +1,12 @@
 <?php include "template/_header.php"; ?>
 
 
-<div class="drum-img">
+<div class="drum-img slideInLeft">
 
     <h1 class="titre">DRUM & BASS</h1>
 </div>
 
-<div class="drum-block">
+<div class="drum-block slideInRight">
     <div class="drum-text">
         <p> La drum and bass, parfois stylisé drum'n'bass, drum & bass ou abrégé DnB, est un genre de musique électronique apparu au Royaume-Uni, plus précisément dans la région de Bristol, vers 1996-1997 au remplacement de l'amen break par le 2-step, marquant la fin de l'ère jungle.
             Le terme drum and bass lui, est apparu vers 1992, pour désigner le breakbeat hardcore.
