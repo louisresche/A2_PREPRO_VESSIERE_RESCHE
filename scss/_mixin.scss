@@ -1,3 +1,5 @@
+// BORDER MINIATURE
+
 @mixin border-miniature(){
   img{
     border-radius: 50px 15px 50px 15px;
@@ -10,9 +12,8 @@
   }
 }
 
-/*********************
-RESPONSIVE BREAKPOINTS
-**********************/
+//RESPONSIVE BREAKPOINTS
+
 @mixin breakpoint($point) {
   @if $point == 1300 {
     @media (max-width: 1300px) { @content; }
@@ -21,3 +22,5 @@ RESPONSIVE BREAKPOINTS
     @media (max-width: 715px) { @content; }
   }
 }
+
+//
