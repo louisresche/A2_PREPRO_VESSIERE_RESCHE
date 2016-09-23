@@ -43,8 +43,10 @@ video {
   text-shadow: 9px 6px 35px #000000;
   font-family: 'Poiret One', cursive;
   font-size: 25pt;
+  line-height: 25pt;
 
   @include breakpoint(715) {
-    padding-top: 10vh;
+    padding-top: 20vh;
+    padding-right: 10vw;
   }
 }
