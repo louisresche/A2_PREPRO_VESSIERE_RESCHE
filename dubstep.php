@@ -1,7 +1,7 @@
 <?php include "template/_header.php"; ?>
 
 
-<div class="dubstep-block">
+<div class="dubstep-block slideInLeft">
 
 
 
@@ -17,6 +17,6 @@
     </div>
 </div>
 
-<div class="dubstep-img">
+<div class="dubstep-img slideInRight">
     <h1 class="titre">DUBSTEP</h1>
 </div>
