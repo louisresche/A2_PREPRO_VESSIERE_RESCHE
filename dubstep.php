@@ -18,5 +18,5 @@
 </div>
 
 <div class="dubstep-img">
-    <h1 class="titre">Dubstep</h1>
+    <h1 class="titre">DUBSTEP</h1>
 </div>
